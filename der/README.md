@@ -26,7 +26,7 @@ implemented as crates maintained by the [RustCrypto] project:
 - [`sec1`]: Elliptic Curve Cryptography
 - [`spki`]: X.509 Subject Public Key Info
 - [`x501`]: Directory Services Types
-- [`x509`]: Public Key Infrastructure Certificate
+- [`x509-cert`]: Public Key Infrastructure Certificate
 
 The core implementation avoids any heap usage (with convenience methods
 that allocate gated under the off-by-default `alloc` feature).
@@ -93,4 +93,4 @@ dual licensed as above, without any additional terms or conditions.
 [`sec1`]: https://github.com/RustCrypto/formats/tree/master/sec1
 [`spki`]: https://github.com/RustCrypto/formats/tree/master/spki
 [`x501`]: https://github.com/RustCrypto/formats/tree/master/x501
-[`x509`]: https://github.com/RustCrypto/formats/tree/master/x509
+[`x509-cert`]: https://github.com/RustCrypto/formats/tree/master/x509-cert
